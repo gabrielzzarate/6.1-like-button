@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>6 1 2 like button</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <div class= "container"></div>
+      <div class="main-content col-md-2 col-md-offset-5">
+        <button type="button" class="btn btn-primary"><span class="like-button">Like</span><span class="glyphicon glyphicon-heart heart-icon" aria-hidden="true"></span></button>
+      </div>
+
+
+
+
+
+    <script id="likes" type = "text/x-handlebars-template">
+
+      <span> {{attributes.tag}} {{attributes.liked}}</span>
+    </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
